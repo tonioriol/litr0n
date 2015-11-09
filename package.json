@@ -1,0 +1,33 @@
+{
+  "name": "litr0n",
+  "version": "1.0.0",
+  "description": "A set of simple helpers for web development.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --reporter spec",
+    "compile": "babel -d lib/ src/",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tonioriol/litr0n.git"
+  },
+  "keywords": [
+    "helpers",
+    "libraries"
+  ],
+  "author": "Toni Oriol <tonioriol@gmail.com> (http://tonioriol.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tonioriol/litr0n/issues"
+  },
+  "devDependencies": {
+    "babel": "^6.0.15",
+    "babel-cli": "^6.1.2",
+    "chai": "^3.4.1",
+    "mocha": "^2.3.3"
+  },
+  "dependencies": {
+    "core-js": "^1.2.5"
+  }
+}
